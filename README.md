@@ -1,19 +1,22 @@
 # Installing Minishift on Windows 10
 
 1 – Download and install VirtualBox
+
 https://www.virtualbox.org/wiki/Downloads
 
-2- Download and install Minshift
+2 – Download and install Minshift
+
 https://github.com/minishift/minishift/releases
 
-3- Configure minishift to use VirtualBox
+3 – Configure minishift to use VirtualBox
+
  ```  minishift config set vm-driver virtualbox ```  
 
-4- Add minishift directory to PATH
+4 – Add minishift directory to PATH
 
-5- Restart CMD
+5 – Restart CMD
 
-6- Start minishift
+6 – Start minishift
 
 ```  minishift start ```  
 
@@ -26,4 +29,4 @@ SET PATH=C:\Users\serdar\.minishift\cache\oc\v3.6.0\windows;%PATH%
 REM Run this command to configure your shell:
 REM @FOR /f “tokens=*” %i IN (‘minishift oc-env’) DO @call %i
 ``` 
-Above is the output of “minishift oc-env” command. All you have to do is to add “C:\Users\serdar\.minishift\cache\oc\v3.6.0\windows” to the system PATH and restart CMD.
+Above is the output of “minishift oc-env” command. All you have to do is to add ``` C:\Users\serdar\.minishift\cache\oc\v3.6.0\windows``` to the system PATH and restart CMD.
