@@ -31,3 +31,7 @@ REM Run this command to configure your shell:
 REM @FOR /f “tokens=*” %i IN (‘minishift oc-env’) DO @call %i
 ``` 
 Above is the output of “minishift oc-env” command. All you have to do is to add ``` C:\Users\serdar\.minishift\cache\oc\v3.6.0\windows``` to the system PATH and restart CMD.
+
+For Linux instructions go to https://docs.okd.io/latest/minishift/getting-started/installing.html
+
+You'll find lab instructions in https://github.com/everdes-ibm/MiniShift/blob/master/WorkshopKubernetesOpenshift.pdf
